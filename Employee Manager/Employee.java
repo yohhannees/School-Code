@@ -7,7 +7,6 @@ abstract class Employee {
 
     Employee(String fname, String lname, int ssn) {
         this.fname = fname;
-        ;
         this.lname = lname;
         this.ssn = ssn;
     }
