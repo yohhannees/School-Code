@@ -1,4 +1,4 @@
-package Socket_Programming;
+package socket;
 
 import java.io.*;
 import java.net.*;
