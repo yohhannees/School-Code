@@ -15,3 +15,7 @@ public class Main {
         helloWorldThread.start();
     }
 }
+
+// Problem: Create a simple thread that prints "Hello, World!" five times.
+
+// Explanation: In this example, we extend the Thread class and override the run() method. Inside the run() method, we place the code we want to execute in the thread. In this case, we print "Hello, World!" five times. In the main() method, we create an instance of the HelloWorldThread and start it.
