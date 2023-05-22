@@ -24,6 +24,7 @@ public class FileTransferServer {
             clientSocket.close();
         }
     }
+    
 }
 
 // Problem: Create a server and client for transferring a file.

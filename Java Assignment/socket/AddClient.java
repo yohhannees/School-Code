@@ -20,4 +20,4 @@ public class AddClient {
 
 // Problem 2: Create a server that calculates and returns the sum of two numbers sent by the client.
 
-// Explanation: The server listens for incoming connections, reads two numberssent by the client, calculates their sum, and returns the result to the client.
+// Explanation: The server listens for incoming connections, reads two number is sent by the client, calculates their sum, and returns the result to the client.
