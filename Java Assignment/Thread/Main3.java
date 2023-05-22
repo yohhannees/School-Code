@@ -1,3 +1,5 @@
+package Thread;
+
 class Counter {
     private int count;
 
@@ -40,4 +42,4 @@ public class Main3 {
 
 // Problem: Create two threads that increment the same counter simultaneously and use synchronization to avoid race conditions.
 
-// Explanation: In this example, we create a Counter class with a synchronized increment() method. The synchronization ensures that only one thread can access the method at a time, preventing race conditions. We create two threads that increment the counter simultaneously and synchronize their access to the increment() method. In the main() method, we start the threads, wait for them to finish, and then print the result.
+// Explanation: In this example, we create a Counter class with a synchronized increment() method. The synchronization ensures that only one thread can access the method at a time, preventing race conditions. We create two threads that increment the counter simultaneously and synchronize their access to the increment() method. In the main() method, we start the threads, wait for them to finish, and then print the result.cls
